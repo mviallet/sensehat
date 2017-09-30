@@ -7,7 +7,7 @@ Ref: https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense
 # Import the Sense HAT python interface
 from sense_hat import SenseHat
 
-# Instantiate an interface witht the HAT
+# Instantiate an interface with the HAT
 sense = SenseHat()
 
 #
