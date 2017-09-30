@@ -17,7 +17,7 @@ pre = sense.pressure
 hum = sense.humidity
 
 # Connect to the database
-db = DBInterface.Database('sensehat.db')
+db = DBInterface.Database('/home/pi/Projects/sensehat/sensehat.db')
 
 # Write the data
 db.Execute("INSERT INTO pth VALUES(date('now'), time('now'), ?, ?, ?, ?, ?)",
